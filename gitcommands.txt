@@ -1,0 +1,29 @@
+list of git commands
+
+mkdir "directory name"
+git init #initalize git repository for this directory
+echo "put stuff in a text file" > "nameoffile".txt #put stuff into a file and then name the file as .txt
+open "nameoffile.txt" #opens it up in your default text editor which for me was text edit
+git add "nameoffile.txt" #add the file to git
+git commit -m "these are my git commands" #explains what are you committing
+git status #checks the git stuff
+git log 
+
+#save and then exit out before checking it in git
+
+to check what is in your directory
+ls -la #shows you everything in your folder"
+
+git branch #tells you you are at master
+git branch testing #add another branch called testing
+#explore a new idea under testing and see how it works and come back to old one
+git checkout testing #switches branch from master to testing
+
+cat gitcommands.txt #shows you what is in this file
+
+git log -stat #shows you what changed
+
+#when collaborating with people who don't use git:
+#cp your documents to a shared drop box file and then share it with your advisor
+#get those track changes
+#look at differences with a GUI
